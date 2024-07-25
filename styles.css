@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+
+.header {
+    background-color: #2b2d42;
+    color: #f0f4ed;
+    text-align: center;
+    padding: 40px 0 5px 0; /* Adjusted bottom padding to make space for the profile pic */
+    position: relative;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header h2 {
+    margin: 5px 0 20px 0;
+    font-weight: normal;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #8b8c89;
+    margin: -75px auto 0 auto; /* Adjusted margin to position profile pic */
+    position: relative;
+    top: 100px; /* Adjust this value to move the profile picture lower */
+    background-color: #2b2d42; /* To match the header background */
+}
+
+.profile-pic img {
+    width: 200px;
+    height: 200px;
+    position: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between; /* Distribute elements evenly */
+    margin-top: 20px; /* Ensure proper spacing */
+}
+
+.contact-info .column {
+    display: flex;
+    flex-direction: column; /* Align items vertically within each column */
+    flex: 1; /* Make both columns take up equal space */
+    align-items: center; /* Center items within each column */
+}
+
+.contact-info p {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Ensure text and image align properly */
+}
+
+.contact-info img {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px; /* Add space between icon and text */
+    vertical-align: middle;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+section {
+    flex: 1 1 45%;
+}
+
+section h3 {
+    margin-top: 0;
+    color: #2b2d42;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    margin: 5px 0;
+}
+
+.hobbies p {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.hobbies img {
+    width: 32px;
+    height: 32px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+    background-color: #aa7e6b;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contact-info .column {
+    flex: 1;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info img {
+    margin-right: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column,
+.right-column {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    background-color: #aa7e6b;
+    padding: 10px;
+    margin: 0 -20px;
+    margin-bottom: 10px;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+}
+
+.hobbies {
+    display: flex;
+    gap: 10px;
+}
+
+.hobbies li img {
+    width: 40px;
+    height: 40px;
+}
+
