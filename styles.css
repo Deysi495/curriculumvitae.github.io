@@ -10,7 +10,7 @@ body {
     background-color: #2b2d42;
     color: #f0f4ed;
     text-align: center;
-    padding: 40px 0 5px 0; /* Adjusted bottom padding to make space for the profile pic */
+    padding: 40px 0 5px 0;
     position: relative;
 }
 
@@ -30,10 +30,10 @@ body {
     border-radius: 50%;
     overflow: hidden;
     border: 5px solid #8b8c89;
-    margin: -75px auto 0 auto; /* Adjusted margin to position profile pic */
+    margin: -75px auto 0 auto; 
     position: relative;
-    top: 100px; /* Adjust this value to move the profile picture lower */
-    background-color: #2b2d42; /* To match the header background */
+    top: 100px;
+    background-color: #2b2d42;
 }
 
 .profile-pic img {
@@ -44,28 +44,28 @@ body {
 
 .contact-info {
     display: flex;
-    justify-content: space-between; /* Distribute elements evenly */
-    margin-top: 20px; /* Ensure proper spacing */
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 .contact-info .column {
     display: flex;
-    flex-direction: column; /* Align items vertically within each column */
-    flex: 1; /* Make both columns take up equal space */
-    align-items: center; /* Center items within each column */
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
 }
 
 .contact-info p {
     margin: 5px 0;
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Ensure text and image align properly */
+    justify-content: flex-start;
 }
 
 .contact-info img {
     width: 16px;
     height: 16px;
-    margin-right: 8px; /* Add space between icon and text */
+    margin-right: 8px;
     vertical-align: middle;
 }
 
